@@ -1,0 +1,66 @@
+body {
+    background-image: url(./assets/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+    background-color: rgb(206, 203, 204);
+    border-radius: 7px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}
+
+h1 {
+   font-weight: bold; 
+   font-size: 3em;
+   color: rgb(12, 35, 56);
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 4em;
+    color: rgb(14, 64, 109);
+}
+
+button {
+
+    color: white;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 7px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;  
+}
+
+#increment-btn {
+    background-color: white;
+    color: black;
+}
+
+#increment-btn:hover {
+    background-color: azure;
+}
+
+#save-btn {
+    background-color: #040D12;
+}
+
+#save-btn:hover {
+    background-color: #252B48;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(34, 44, 53);
+}
